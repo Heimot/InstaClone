@@ -1,3 +1,5 @@
+This is a project which i do for fun from time to time.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
