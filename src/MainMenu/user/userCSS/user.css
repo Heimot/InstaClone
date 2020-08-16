@@ -1,0 +1,83 @@
+.userNav {
+    background-color: #f3f4f6;
+    height: 75px;
+    display: flex;
+    text-align: left;
+}
+
+.userPicture {
+    margin: 30px auto auto 10px;
+    border: solid grey 2px;
+    border-radius: 50px;
+    width: 75px;
+    height: 75px;
+    background-position: center;
+    background-size: 75px 75px;
+}
+
+.userText {
+    position: absolute;
+    margin: 45px auto auto 120px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.userName {
+    position: absolute;
+    margin: 70px auto auto 120px;
+    font-size: 18px;
+    color: #c1c4d2;
+}
+
+.ehdotus {
+    position: absolute;
+    margin: 150px auto auto 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #c1c4d2;
+}
+
+.showAll {
+    position: absolute;
+    margin: 150px auto auto 350px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.suggestedUserPicture {
+    margin: -25px auto auto auto;
+    border: solid grey 2px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: 50px 50px;
+}
+
+.suggestedUser {
+    position: absolute;
+    margin: -50px auto auto 75px;
+    font-weight: bold;
+}
+
+.suggestedProfiles {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 225px auto auto -500px;
+}
+
+.followSuggestedUser {
+    position: absolute;
+    margin-top: -40px;
+    left: 400px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5e74d9;
+}
+
+.suggestedUserFollows {
+    position: absolute;
+    margin: -30px auto auto 75px;
+    color: #c1c4d2;
+}

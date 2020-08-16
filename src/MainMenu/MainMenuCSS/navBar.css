@@ -1,0 +1,17 @@
+.mainNav {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 75px;
+    z-index: 1;
+    border-bottom: solid grey 2px;
+}
+
+.mainDataSpotsNav {
+    flex: 1 1 150px; /*  Stretching: */
+    margin: 5px;
+    background-color: white;
+}

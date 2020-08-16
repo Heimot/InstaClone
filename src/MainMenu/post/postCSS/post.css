@@ -1,0 +1,146 @@
+.postDiv {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.postNav {
+    background-color: white;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.postPicture {
+    position: relative;
+    left: 25px;
+    border: solid grey 1px;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: 40px 40px;
+}
+
+.postText {
+    margin: auto auto auto 50px;
+    left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.postedPicture {
+    margin: auto auto auto auto;
+    width: 750px;
+    height: 750px;
+    background-position: center;
+    background-size: 750px 750px;
+}
+
+.bottomChat {
+    background-color: white;
+    height: 325px;
+}
+
+.chatFieldButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.likeButton {
+    margin: 15px auto auto 15px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: solid black 2px;
+}
+
+.commentButton {
+    margin: 15px auto auto 15px;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border: solid black 2px;
+}
+
+.shareButton {
+    margin: 15px auto auto 15px;
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    border: solid black 2px;
+}
+
+.bookMarkButton {
+    margin: 15px auto auto 475px;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border: solid black 2px;
+}
+
+.chatFieldLikes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto auto 17px;
+}
+
+.likeAmount {
+    flex: 1 1 200;
+    margin: 10px;
+}
+
+.likePicture {
+    flex: 0 1 30px;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    border: solid grey 1px;
+    background-color: cadetblue;
+    background-position: center;
+    background-size: 30px 30px;
+    border-radius: 50px;
+}
+
+.chatComment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 110px auto auto 0px;
+    border-top: solid grey 2px;
+
+}
+
+.chatInput {
+    margin: 14px auto auto 25px;
+    width: 75%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.publishCommentNoInput {
+    margin: 22px auto auto auto;
+    font-size: 20px;
+    color: #5e74d9;
+    font-weight: bold;
+    opacity: 0.2;
+}
+
+.publishComment {
+    margin: 22px auto auto auto;
+    font-size: 20px;
+    color: #5e74d9;
+    font-weight: bold;
+}
+
+.posterData {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.posterComment {
+    margin: 5px auto auto 25px;
+}

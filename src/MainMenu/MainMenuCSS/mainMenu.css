@@ -1,0 +1,39 @@
+
+.main {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    background-color: #f3f4f6;
+}
+
+.left-sidebar {
+    display: block;
+    margin: 120px auto auto 275px;
+    background: white;
+    width: 750px;
+    height: 125px;
+    border: solid grey 2px;
+    border-radius: 5px;
+    grid-column: 2 / 3;
+}
+
+.mainDataSpots {
+    display: block;
+    margin: 30px 40px auto 275px;
+    background-color: aliceblue;
+    width: 750px;
+    height: 1150px;
+    border: solid grey 2px;
+    border-radius: 5px;
+    grid-column: 2 / 3;
+
+}
+
+.right-sidebar {
+    position: fixed;
+    display: block;
+    margin: 120px auto auto 1075px;
+    width: 500px;
+    height: 500px;
+    background: #f3f4f6;
+    grid-column: 3 / 4;
+}
